@@ -1,0 +1,47 @@
+|Lab3
+a_out <= inst59.DB_MAX_OUTPUT_PORT_TYPE
+C => inst2.IN0
+C => inst70.IN0
+C => inst6.IN0
+C => inst19.IN1
+C => inst65.IN0
+C => inst33.IN0
+C => inst36.IN2
+C => inst47.IN1
+C => inst57.IN1
+B => inst3.IN0
+B => inst70.IN1
+B => inst5.IN1
+B => inst14.IN0
+B => inst22.IN2
+B => inst20.IN0
+B => inst28.IN1
+B => inst66.IN0
+B => inst33.IN1
+B => inst36.IN1
+B => inst40.IN1
+B => inst44.IN0
+B => inst52.IN0
+D => inst72.IN1
+D => inst.IN0
+D => inst74.IN2
+D => inst15.IN0
+D => inst19.IN0
+D => inst32.IN1
+D => inst26.IN1
+D => inst38.IN0
+D => inst45.IN1
+D => inst58.IN0
+A => inst10.IN0
+A => inst6.IN1
+A => inst16.IN0
+A => inst32.IN2
+A => inst65.IN1
+b_out <= inst60.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+d_out <= inst61.DB_MAX_OUTPUT_PORT_TYPE
+e_out <= inst62.DB_MAX_OUTPUT_PORT_TYPE
+f_out <= inst63.DB_MAX_OUTPUT_PORT_TYPE
+g_out <= inst64.DB_MAX_OUTPUT_PORT_TYPE
+
+

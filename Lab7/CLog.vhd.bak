@@ -1,0 +1,46 @@
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+
+Entity CLog is 
+	PORT (
+		REGA: in std_logic_vector(7 downto 0);
+		REGB: in std_logic_vector(7 downto 0);
+		Cin: in std_logic;
+		Cout: out std_logic;
+		ZERO: in std_logic_vector(7 downto 0);
+		ONE: in std_logic_vector(7 downto 0);
+		TWO: in std_logic_vector(7 downto 0);
+		THREE: in std_logic_vector(7 downto 0);
+		FOUR: in std_logic_vector(7 downto 0);
+		FIVE: in std_logic_vector(7 downto 0);
+		SIX: in std_logic_vector(7 downto 0);
+		SEVEN: in std_logic_vector(7 downto 0);
+		
+		--EIGHT THROUGH TWELVE ARE NOT USED--
+		
+		THIRTEEN: in std_logic_vector(7 downto 0);
+		FOURTEEN: in std_logic_vector(7 downto 0);
+		FIFTEEN: in std_logic_vector(7 downto 0) );
+end CLog;
+
+architecture behavior of CLog is 
+	signal a,b,c,d: std_logic_vector(7 downto 0);
+begin
+	ZERO <= REGA;
+	ONE <= REGB;
+	TWO <= not(REGA);
+	THREE <= REGA and REGB;
+	FOUR <= REGA or REGB;
+	a <= std_logic_vector(unsigned(REGA));
+	b <= std_logic_vector(unsigned(REGB));
+	c <= std_logic_vector(unsigned(REGA));
+	d <= std_logic_vector(unsigned(REGB));
+	FIVE <= a + b;
+	SIX <= std_logic_vector(shift_left(signed(REGA),1));
+	SEVEN <= std_logic_vector(shift_right(unsigned(REGA),1));
+	THIRTEEN <= c + d;
+	FOURTEEN <= std_logic_vector(rotate_right(signed(REGA),1));
+	FIFTEEN <= std_logic_vector(shift_right(signed(REGA),1));
+end behavior;
+	

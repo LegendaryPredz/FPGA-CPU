@@ -1,0 +1,23 @@
+library ieee;
+use ieee.std_logic_1164;
+use ieee.std_logic_unsigned;
+use ieee.numeric_std.all;
+
+Entity REGA is 
+	PORT(
+		MOA: in std_logic_vector(7 downto 0);
+		CLK: in std_logic;
+		REGA: out std_logic_vector(7 downto 0) );
+End REGA;
+
+architecture behavior of REGA is 
+	signal node: std_logic_vector(7 downto 0);
+begin
+	with MSA select 
+	pOUT <= INPUT when "00",
+				REGA when "01",
+				REGB when "10",
+				OUTPUT when "11",
+				NULL when others;
+	MOA <= pOUT;
+end behavior;

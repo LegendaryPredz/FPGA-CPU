@@ -1,0 +1,177 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "F[7]",
+					"strict" : false
+				},
+				{
+					"name" : "F[6]",
+					"strict" : false
+				},
+				{
+					"name" : "F[5]",
+					"strict" : false
+				},
+				{
+					"name" : "F[4]",
+					"strict" : false
+				},
+				{
+					"name" : "F[3]",
+					"strict" : false
+				},
+				{
+					"name" : "F[2]",
+					"strict" : false
+				},
+				{
+					"name" : "F[1]",
+					"strict" : false
+				},
+				{
+					"name" : "F[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Feq[7]",
+					"strict" : false
+				},
+				{
+					"name" : "s0",
+					"strict" : false
+				},
+				{
+					"name" : "Fand[7]",
+					"strict" : false
+				},
+				{
+					"name" : "s1",
+					"strict" : false
+				},
+				{
+					"name" : "Fcomp[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Fsum[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Fand[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Feq[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Fcomp[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Fsum[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Feq[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Fand[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Fcomp[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Fsum[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Fand[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Feq[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Fcomp[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Fsum[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Feq[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Fand[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Fcomp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Fsum[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Fand[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Feq[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Fcomp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Fsum[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Feq[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Fand[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Fcomp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Fsum[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Fand[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Feq[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Fcomp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Fsum[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

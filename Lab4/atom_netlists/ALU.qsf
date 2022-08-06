@@ -1,0 +1,57 @@
+set_location_assignment PIN_Y23 -to s0
+set_location_assignment PIN_Y24 -to s1
+set_location_assignment PIN_AA22 -to A[0]
+set_location_assignment PIN_AA23 -to A[1]
+set_location_assignment PIN_AA24 -to A[2]
+set_location_assignment PIN_AB23 -to A[3]
+set_location_assignment PIN_AB24 -to A[4]
+set_location_assignment PIN_AC24 -to A[5]
+set_location_assignment PIN_AB25 -to A[6]
+set_location_assignment PIN_AC25 -to A[7]
+set_location_assignment PIN_AB26 -to B[0]
+set_location_assignment PIN_AD26 -to B[1]
+set_location_assignment PIN_AC26 -to B[2]
+set_location_assignment PIN_AB27 -to B[3]
+set_location_assignment PIN_AD27 -to B[4]
+set_location_assignment PIN_AC27 -to B[5]
+set_location_assignment PIN_AC28 -to B[6]
+set_location_assignment PIN_AB28 -to B[7]
+set_location_assignment PIN_M23 -to Cin
+set_location_assignment PIN_G18 -to a0_out
+set_location_assignment PIN_F22 -to b0_out
+set_location_assignment PIN_E17 -to c0_out
+set_location_assignment PIN_L26 -to d0_out
+set_location_assignment PIN_L25 -to e0_out
+set_location_assignment PIN_J22 -to f0_out
+set_location_assignment PIN_H22 -to g0_out
+set_location_assignment PIN_M24 -to a_out
+set_location_assignment PIN_Y22 -to b_out
+set_location_assignment PIN_W21 -to c_out
+set_location_assignment PIN_W22 -to d_out
+set_location_assignment PIN_W25 -to e_out
+set_location_assignment PIN_U23 -to f_out
+set_location_assignment PIN_U24 -to g_out
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY ALU
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:20:11  SEPTEMBER 22, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name BSF_FILE ../Lab2/Lab2.bsf
+set_global_assignment -name BDF_FILE ../Lab2/Lab2.bdf
+set_global_assignment -name BSF_FILE ../Lab3/7Seg.bsf
+set_global_assignment -name BDF_FILE ../Lab3/Lab3.bdf
+set_global_assignment -name BDF_FILE ALU.bdf
+set_global_assignment -name SEARCH_PATH "g:\\intelfpga_lite\\18.1\\quartus\\libraries\\my files"
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf

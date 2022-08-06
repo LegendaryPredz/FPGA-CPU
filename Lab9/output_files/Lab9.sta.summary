@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'KEY'
+Slack : -4.876
+TNS   : -120.942
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -3.720
+TNS   : -3.731
+
+Type  : Slow 1200mV 85C Model Hold 'KEY'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'CLK'
+Slack : -1.282
+TNS   : -2.564
+
+Type  : Slow 1200mV 85C Model Removal 'CLK'
+Slack : 1.128
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KEY'
+Slack : -3.000
+TNS   : -47.975
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -8.263
+
+Type  : Slow 1200mV 0C Model Setup 'KEY'
+Slack : -4.405
+TNS   : -109.155
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -3.386
+TNS   : -3.386
+
+Type  : Slow 1200mV 0C Model Hold 'KEY'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'CLK'
+Slack : -1.065
+TNS   : -2.130
+
+Type  : Slow 1200mV 0C Model Removal 'CLK'
+Slack : 1.145
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KEY'
+Slack : -3.000
+TNS   : -47.975
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -8.219
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : -1.959
+TNS   : -1.959
+
+Type  : Fast 1200mV 0C Model Setup 'KEY'
+Slack : -1.550
+TNS   : -32.325
+
+Type  : Fast 1200mV 0C Model Hold 'KEY'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CLK'
+Slack : -0.763
+TNS   : -1.526
+
+Type  : Fast 1200mV 0C Model Removal 'CLK'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KEY'
+Slack : -3.000
+TNS   : -41.132
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -6.126
+
+------------------------------------------------------------

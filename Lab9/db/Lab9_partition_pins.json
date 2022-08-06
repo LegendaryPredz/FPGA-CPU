@@ -1,0 +1,305 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "h7a",
+					"strict" : false
+				},
+				{
+					"name" : "REGA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "REGA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "REGA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "REGA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "REGA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "REGA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "REGA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "REGA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "INPUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "h7b",
+					"strict" : false
+				},
+				{
+					"name" : "h7c",
+					"strict" : false
+				},
+				{
+					"name" : "h7d",
+					"strict" : false
+				},
+				{
+					"name" : "h7e",
+					"strict" : false
+				},
+				{
+					"name" : "h7f",
+					"strict" : false
+				},
+				{
+					"name" : "h7g",
+					"strict" : false
+				},
+				{
+					"name" : "h6a",
+					"strict" : false
+				},
+				{
+					"name" : "h6b",
+					"strict" : false
+				},
+				{
+					"name" : "h6c",
+					"strict" : false
+				},
+				{
+					"name" : "h6d",
+					"strict" : false
+				},
+				{
+					"name" : "h6e",
+					"strict" : false
+				},
+				{
+					"name" : "h6f",
+					"strict" : false
+				},
+				{
+					"name" : "h6g",
+					"strict" : false
+				},
+				{
+					"name" : "b0_out",
+					"strict" : false
+				},
+				{
+					"name" : "c0_out",
+					"strict" : false
+				},
+				{
+					"name" : "d0_out",
+					"strict" : false
+				},
+				{
+					"name" : "e0_out",
+					"strict" : false
+				},
+				{
+					"name" : "f0_out",
+					"strict" : false
+				},
+				{
+					"name" : "g0_out",
+					"strict" : false
+				},
+				{
+					"name" : "a0_out",
+					"strict" : false
+				},
+				{
+					"name" : "a_out",
+					"strict" : false
+				},
+				{
+					"name" : "b_out",
+					"strict" : false
+				},
+				{
+					"name" : "c_out",
+					"strict" : false
+				},
+				{
+					"name" : "d_out",
+					"strict" : false
+				},
+				{
+					"name" : "e_out",
+					"strict" : false
+				},
+				{
+					"name" : "f_out",
+					"strict" : false
+				},
+				{
+					"name" : "g_out",
+					"strict" : false
+				},
+				{
+					"name" : "h4a",
+					"strict" : false
+				},
+				{
+					"name" : "REGB[7]",
+					"strict" : false
+				},
+				{
+					"name" : "REGB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "REGB[5]",
+					"strict" : false
+				},
+				{
+					"name" : "REGB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "REGB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "REGB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "REGB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "REGB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "h4b",
+					"strict" : false
+				},
+				{
+					"name" : "h4c",
+					"strict" : false
+				},
+				{
+					"name" : "h4d",
+					"strict" : false
+				},
+				{
+					"name" : "h4e",
+					"strict" : false
+				},
+				{
+					"name" : "h4f",
+					"strict" : false
+				},
+				{
+					"name" : "h4g",
+					"strict" : false
+				},
+				{
+					"name" : "h5a",
+					"strict" : false
+				},
+				{
+					"name" : "h5b",
+					"strict" : false
+				},
+				{
+					"name" : "h5c",
+					"strict" : false
+				},
+				{
+					"name" : "h5d",
+					"strict" : false
+				},
+				{
+					"name" : "h5e",
+					"strict" : false
+				},
+				{
+					"name" : "h5f",
+					"strict" : false
+				},
+				{
+					"name" : "h5g",
+					"strict" : false
+				},
+				{
+					"name" : "MSA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MSA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MSB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MSB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MSC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MSC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MSC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MSC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "KEY",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+|Encoder
+C0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+I3 => inst3.IN0
+I3 => inst4.IN0
+I4 => inst3.IN1
+I4 => inst5.IN0
+I4 => C2.DATAIN
+I1 => inst2.IN0
+I2 => inst.IN0
+C1 <= <GND>
+C2 <= I4.DB_MAX_OUTPUT_PORT_TYPE
+
+
